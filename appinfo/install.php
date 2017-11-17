@@ -7,4 +7,4 @@ if(!count($rules)) {
 	$ruleMapper->populate();
 }
 
-\OC::$server->getConfig()->setAppValue('files_antivirus', 'av_path', '/usr/bin/clamscan');
+\OC::$server->getConfig()->setAppValue('files_antivirus', 'av_path', '/usr/sbin/clamscan');

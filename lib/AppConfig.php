@@ -39,11 +39,11 @@ class AppConfig {
 
 	private $defaults = [
 		'av_mode' => 'executable',
-		'av_socket' => '/var/run/clamav/clamd.ctl',
+		'av_socket' => '/var/run/clamav/clamd.sock',
 		'av_host' => '',
 		'av_port' => '',
 		'av_cmd_options' => '',
-		'av_path' => '/usr/bin/clamscan',
+		'av_path' => '/usr/sbin/clamscan',
 		'av_max_file_size' => -1,
 		'av_stream_max_length' => '26214400',
 		'av_infected_action' => 'only_log',
