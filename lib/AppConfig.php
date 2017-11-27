@@ -38,7 +38,7 @@ class AppConfig {
 	private $config;
 
 	private $defaults = [
-		'av_mode' => 'executable',
+		'av_mode' => 'socket',
 		'av_socket' => '/var/run/clamav/clamd.sock',
 		'av_host' => '',
 		'av_port' => '',
