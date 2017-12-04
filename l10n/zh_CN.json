@@ -42,6 +42,9 @@
     "Scanner exit status or signature to search" : "用于搜索的扫描器退出状态或签名",
     "Description" : "描述",
     "Mark as" : "标记为",
+    "File size limit, -1 means no limit" : "文件大小限制，-1表示没有限制",
+    "When infected files were found during a background scan" : "感染文件处理方式",
+    "bytes" : "字节",
     "Add a rule" : "添加规则"
 },"pluralForm" :"nplurals=1; plural=0;"
 }
